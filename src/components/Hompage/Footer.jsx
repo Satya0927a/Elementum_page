@@ -90,7 +90,7 @@ const Footer = () => {
           <img className="absolute left-40 top-[-140px] max-xl:scale-50 max-xl:top-[-98px] max-xl:left-10" src={arrow} alt="" srcset="" />
           <img className="absolute left-60 top-[-140px] max-xl:scale-50 max-xl:top-[-98px] max-xl:left-20" src={arrow} alt="" srcset="" />
           Subscribe to our newsletter</h1>
-        <p className="text-[24px]/[36px] max-xl:text-[18px]/[28px]">To make your stay special and even more memorable</p>
+        <p className="text-[24px]/[36px] max-xl:text-[18px]/[28px] text-center">To make your stay special and even more memorable</p>
         <button className="w-[233px] h-[72px] max-xl:h-[60px] text-[20px]/[30px] max-xl:text-[17px] font-bold bg-black text-white rounded-full hover:cursor-pointer">Subscribe Now</button>
       </div>
       <div className="flex max-xl:grid max-xl:grid-cols-2 max-xl:gap-10 justify-between max-w-[1600px] max-xl:max-w-full max-xl:px-8 w-full  border-t-1 py-20 max-xl:py-12">
