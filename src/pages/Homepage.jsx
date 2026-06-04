@@ -16,7 +16,7 @@ const Homepage = () => {
       <section className="mt-60 max-xl:mt-30 relative">
         <Features/>
       </section>
-      <section className="mt-80 max-xl:mt-20 relative">
+      <section className="mt-40 max-xl:mt-20 relative">
         <OfferProvided/>
       </section>
       <section className="mt-80 max-xl:mt-60 mb-40 max-xl:mb-50">
