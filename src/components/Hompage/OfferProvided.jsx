@@ -18,10 +18,12 @@ const OfferProvided = () => {
     },
   }
   return (
-    <div className="max-w-[1618px] m-auto flex flex-col gap-10 ">
-      <h1 className="font-ghibli text-[100px]/[116px] max-w-[831px] relative">What we can offer you!
-        <img src={green_rectangle} className="absolute right-2 top-5 z-[-1] scale-120" alt="" srcset="" />
-        <img src={vector5} className="absolute left-2 top-52 z-[-1] scale-120" alt="" srcset="" />
+    <div className="max-w-[1618px] max-xl:max-w-full max-xl:px-8 m-auto flex flex-col gap-10 ">
+      <h1 className="font-ghibli text-[100px]/[116px] max-xl:text-[56px]/[72px] max-w-[831px] max-xl:max-w-full relative">What we <span className="relative">can
+        <img src={green_rectangle} className="absolute right-2 top-3 z-[-1] min-xl:scale-120 max-xl:top-2" alt="" srcset="" />
+      </span> <span className="relative"> offer
+          <img src={vector5} className="absolute left-2 bottom-[-10px] z-[-1] scale-120" alt="" srcset="" />
+        </span> you!
       </h1>
       <div>
         <Offers text1={Content.offer1.text1} text2={Content.offer1.text2} />
@@ -34,10 +36,10 @@ const OfferProvided = () => {
 }
 const Offers = ({ text1, text2 }) => {
   return (
-    <div className="flex justify-between items-center h-[180px] border-t-1" >
-      <span className="text-[30px]/[42px] max-w-[226px]">{text1}</span>
-      <span className="font-ghibli text-[56px]/[116px]">{text2}</span>
-      <button><img src={longarrow}></img></button>
+    <div className="flex justify-between items-center h-[180px] max-xl:h-auto max-xl:py-6 max-xl:flex-col max-xl:items-start max-xl:gap-3 border-t-1" >
+      <span className="text-[30px]/[42px] max-xl:text-[22px]/[32px] max-w-[226px] max-xl:max-w-full">{text1}</span>
+      <span className="font-ghibli text-[56px]/[116px] max-xl:text-[32px]/[44px]">{text2}</span>
+      <button className="max-xl:self-end"><img src={longarrow}></img></button>
     </div>
   )
 }

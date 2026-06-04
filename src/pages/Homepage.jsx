@@ -7,19 +7,19 @@ import Navbar from "../components/Navbar"
 
 const Homepage = () => {
   return (
-    <div>
+    <div className="max-xl:overflow-x-hidden">
       <Navbar />
-      <section className="flex flex-col gap-15 relative">
+      <section className="flex flex-col gap-15 max-xl:gap-10 relative">
         <Herotitle />
         <img src="/Home/Heroimg.png" className="px-5" alt="" srcset="" />
       </section>
-      <section className="mt-60 relative">
+      <section className="mt-60 max-xl:mt-30 relative">
         <Features/>
       </section>
-      <section className="mt-80 relative">
+      <section className="mt-80 max-xl:mt-40 relative">
         <OfferProvided/>
       </section>
-      <section className="mt-80 mb-40">
+      <section className="mt-80 max-xl:mt-40 mb-40 max-xl:mb-50">
         <CustomerReview/>
       </section>
       <Footer/>
