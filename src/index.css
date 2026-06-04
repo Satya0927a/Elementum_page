@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: "Ghibli";
+  src: url("./assets/fonts/gerbil.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("./assets/fonts/Satoshi-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@theme {
+  --font-ghibli: "Ghibli", sans-serif;
+  --font-satoshi: "Satoshi", sans-serif;
+}
+body {
+  font-family: "Satoshi", sans-serif;
+}
