@@ -30,8 +30,8 @@ const Features = () => {
       <FeaturesCard  heading={Content.card1.heading} para={Content.card1.subHeading} img={Content.card1.img} order={1}/>
       <FeaturesCard heading={Content.card2.heading} para={Content.card2.subHeading} img={Content.card2.img} order={-1} />
       <img src={vectorcurve} className="absolute right-0 top-120 z-[-1]" alt="" srcset="" />
-      <img src={triangle} className="absolute left-20 bottom-90 z-[-1]" alt="" srcset="" />
-      <img src={triangle} className="absolute left-140 bottom-0 " alt="" srcset="" />
+      <img src={triangle} className="absolute left-20 bottom-140 z-[-1]" alt="" srcset="" />
+      <img src={triangle} className="absolute left-140 bottom-50 " alt="" srcset="" />
       <img src={titledrectangle} className="absolute right-20 top-10 z-[-1]" alt="" srcset="" />"
     </div>
   )

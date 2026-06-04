@@ -101,7 +101,7 @@ const Footer = () => {
 
       </div>
       <p>©2023 Elementum. All rights reserved</p>
-      <img className="absolute right-20 top-60 max-xl:scale-50 max-xl:top-20" src={purple_semicircle} alt="" srcset="" />
+      <img className="absolute right-20 top-60 max-xl:scale-50 max-xl:top-20 max-[900px]:hidden" src={purple_semicircle} alt="" srcset="" />
 
     </div>
   )
