@@ -18,7 +18,7 @@ const Herotitle = () => {
       </h1>
       <p className=" w-215 max-xl:w-full max-xl:px-6 max-sm:px-3 text-[22px]/[36px] max-xl:text-[18px]/[28px] max-sm:text-[15px]/[24px] text-pretty text-center">We are a team of strategists, designers communicators, researchers. Togeather,
         we belive that progress only hghappens when you refuse to play things safe.</p>
-      <img src={purple_semicircle} className="absolute  top-70 right-40 rotate-180  z-[-1] h-[155px] max-xl:hidden" alt="" srcset="" />
+      <img src={purple_semicircle} className="absolute  top-70 right-40  max-[1500px]:right-5 rotate-180  z-[-1] h-[155px] max-xl:hidden" alt="" srcset="" />
       <img src={scribble1} className="absolute  top-90 left-10 z-[-1] max-[1750px]:scale-70 max-[1750px]:left-5  max-xl:hidden " alt="" srcset="" />
       <img src={scribble2} className="absolute  top-90 left-0 z-[-1] max-[1750px]:scale-70 max-[1750px]:left-[-15px]  max-xl:hidden" alt="" srcset="" />
     </div>
