@@ -85,8 +85,8 @@ const Footer = () => {
   }
   return (
     <div className="bg-[hsla(136,40%,89%,1)] h-[1297px] max-xl:h-auto max-xl:pb-10 flex flex-col items-center gap-25 max-xl:gap-15 relative">
-      <div className=" max-w-[904px] max-xl:max-w-full max-xl:px-8 flex flex-col gap-10 items-center mt-35 max-xl:mt-16">
-        <h1 className="font-ghibli text-[100px]/[116px] max-xl:text-[56px]/[72px] text-center relative">
+      <div className=" max-w-[904px] max-xl:max-w-full max-xl:px-8 flex flex-col gap-10 items-center mt-35 max-xl:mt-16 ">
+        <h1 className="font-ghibli text-[100px]/[116px] max-sm:text-[26px/34px] max-xl:text-[56px]/[72px] text-center relative">
           <img className="absolute left-40 top-[-140px] max-xl:scale-50 max-xl:top-[-98px] max-xl:left-10" src={arrow} alt="" srcset="" />
           <img className="absolute left-60 top-[-140px] max-xl:scale-50 max-xl:top-[-98px] max-xl:left-20" src={arrow} alt="" srcset="" />
           Subscribe to our newsletter</h1>

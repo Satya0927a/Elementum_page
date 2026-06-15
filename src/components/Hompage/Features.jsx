@@ -45,7 +45,7 @@ const FeaturesCard = ({ heading, para, img, order }) => {
         <h1 className=" font-ghibli text-[56px]/[76px] max-xl:text-[40px]/[52px] relative"> <span className="relative">{heading.track1}
           <img src={order==1?vector5:green_rectangle} className={`absolute top-0 scale-120  z-[-1] ${order==1?"top-10":""}`} alt="" srcset="" />
         </span>{heading.sentence} <span className="relative">{heading.track2}
-            <img src={order==1?green_rectangle:vector5} className={`absolute right-0 bottom-[-20px] z-[-1] ${order==1?"bottom-20":""}`} alt="" srcset="" />
+            <img src={order==1?green_rectangle:vector5} className={`absolute right-0  z-[-1] ${order==1?"bottom-0":"bottom-[-20px]"}`} alt="" srcset="" />
           </span>
 
         </h1>
