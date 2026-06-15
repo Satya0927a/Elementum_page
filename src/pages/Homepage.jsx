@@ -11,7 +11,7 @@ const Homepage = () => {
       <Navbar />
       <section className="flex flex-col gap-15 max-xl:gap-10 relative">
         <Herotitle />
-        <img src="/Home/Heroimg.png" className="px-5" alt="" srcset="" />
+        <img src="/Home/Heroimg.png" className="px-5 w-full max-w-[2000px] mx-auto" alt="" srcset="" />
       </section>
       <section className="mt-60 max-xl:mt-30 relative min-lg:px-5">
         <Features/>
